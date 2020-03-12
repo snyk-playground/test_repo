@@ -5,18 +5,6 @@
 #
 -e git+https://github.com/lyft/gunicorn@lyft_19.60_fixes_1#egg=gunicorn
 
-pytz==2018.9
-pyyaml==3.12
-rainbow-saddle==0.4.0
-requests==2.20.1          # via lyft-idl, lyft-ratelimit, lyft-requests
-rtree==0.8.3              # via lyft-regions-client
-s3transfer==0.1.13        # via boto3
-shapely==1.6.4.post2      # via lyft-regions-client
-six==1.10.0               # via analyticsclient, flask-restful, freezegun, grpcio, lyft-idl, lyft-ingest, lyft-localization, lyft-logging, lyft-messagetracking, lyft-notifications, lyft-regions-client, lyft-requests, lyft-s3, lyft-stdlib, more-itertools, protobuf, pynamodb, pytest, python-dateutil
-statsd==3.2.2
-typing-extensions==3.7.4  # via lyft-requests
-typing==3.6.4             # via lyft-s3
-tzlocal==1.5.1            # via delorean
 ujson==1.35               # via lyft-ingest, lyft-stdlib
 unidecode==1.0.23         # via python-slugify
 urllib3==1.24.1           # via lyft-ingest, lyft-requests, requests
