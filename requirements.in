@@ -49,3 +49,5 @@ lyft-paxgrowth-common==3.3.0
 # Lyft Protobuf definitions
 # Upstream url: https://github.com/lyft/idl
 lyft-idl==6871
+
+psutil==5.6.7             # via rainbow-saddle
