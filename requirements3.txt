@@ -3,7 +3,7 @@
 #
 #    control run piptools.compile amp
 #
--e git+https://github.com/lyft/gunicorn@lyft_19.60_fixes_1#egg=gunicorn
+#-e git+https://github.com/lyft/gunicorn@lyft_19.60_fixes_1#egg=gunicorn
 
 ujson==1.35               # via lyft-ingest, lyft-stdlib
 unidecode==1.0.23         # via python-slugify
