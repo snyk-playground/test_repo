@@ -4,61 +4,8 @@
 #    control run piptools.compile amp
 #
 #-e git+https://github.com/lyft/gunicorn@lyft_19.60_fixes_1#egg=gunicorn
-analyticsclient==6502
-aniso8601==3.0.2          # via flask-restful
-attrs==17.4.0             # via lyft-paxgrowth-common, pytest
-babel==2.6.0              # via delorean, lyft-localization
-blinker==1.4
-boltons==18.0.0
-boto3==1.7.2              # via lyft-ingest, lyft-s3, lyft-streamcheck
-boto==2.48.0
-botocore==1.10.2          # via boto3, pynamodb, s3transfer
-cachetools==2.1.0         # via lyft-public-api-lib
-certifi==2019.6.16        # via lyft-requests, requests
-chardet==3.0.4            # via requests
-ciso8601==2.1.1           # via lyft-datetime, lyft-ingest
-click==6.7                # via flask
-coverage==4.5.1           # via pytest-cov
-delorean==1.0.0           # via lyft-datetime
-docutils==0.14            # via botocore
-enum34==1.1.6             # via lyft-messagetracking
-fast-distance==1.3.0      # via lyft-regions-client
-flask-protobuf==0.8.0
-flask-restful==0.3.6      # via flask-protobuf, lyft-public-api-lib
-flask-script==2.0.6
-flask==1.0.2
-freezegun==0.3.10
-gevent==1.2.2
-googleapis-common-protos==1.5.5  # via lyft-idl
-greenlet==0.4.13
-grpcio-tools==1.16.1      # via lyft-idl, lyft-requests
-grpcio==1.16.1            # via grpcio-tools
-humanize==0.5.1           # via delorean
-idna==2.6                 # via requests
-itsdangerous==0.24        # via flask
-jinja2==2.10.1            # via flask
-jmespath==0.9.3           # via boto3, botocore
-lyft-datetime==0.4.4
-lyft-exceptions==0.1.1    # via lyft-ingest, lyft-logging, lyft-requests
-lyft-experimentation==5.6.1
-lyft-idl==6871
-lyft-ingest==2.0.3
-lyft-localization==13.1.2
-lyft-logging==0.8.3
-lyft-messagetracking==2.4.0  # via lyft-notifications
-lyft-notifications==2.4.2
-lyft-paxgrowth-common==3.3.0
-lyft-public-api-lib==0.46.5
-lyft-ratelimit==0.2.2
-lyft-regions-client==4.8.0
-lyft-requests==1.11.6
-lyft-s3==0.6.0            # via lyft-regions-client
-lyft-settings==0.3.1
-lyft-stats==1.2.0
-lyft-stdlib==1011.0.0
-lyft-streamcheck==0.2.15  # via lyft-ingest
-lyft-suntime==0.1.2
-markupsafe==1.0           # via jinja2
+
+
 marshmallow==3.0.0b8
 mmh3==2.5.1               # via lyft-experimentation
 more-itertools==4.1.0     # via pytest
