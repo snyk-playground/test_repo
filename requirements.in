@@ -23,7 +23,7 @@ lyft-requests
 lyft-stats
 lyft-stdlib>=1009.4.2
 lyft-suntime>=0.1.2
-marshmallow>=3.0.0b8
+marshmallow>=3.0.0b9 # not directly required, pinned by Snyk to avoid a vulnerability
 
 # Defines experimental extensions to the standard "typing" module that are supported by the mypy typechecker.
 # Upstream url: https://github.com/python/mypy/tree/master/extensions
@@ -49,3 +49,9 @@ lyft-paxgrowth-common==3.3.0
 # Lyft Protobuf definitions
 # Upstream url: https://github.com/lyft/idl
 lyft-idl==6871
+
+urllib3==1.24.3           # via lyft-ingest, lyft-requests, requests
+werkzeug==0.15.3          # via flask
+
+psutil>=5.6.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pyyaml>=4.2b1 # not directly required, pinned by Snyk to avoid a vulnerability
