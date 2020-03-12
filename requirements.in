@@ -1,0 +1,51 @@
+# piptools: python3only
+-e git+https://github.com/lyft/gunicorn@lyft_19.60_fixes_1#egg=gunicorn
+Flask-Script>=2.0.5
+flask-protobuf
+Flask
+PyYAML>=3.12
+analyticsclient>=6502
+blinker>=1.4
+boltons>=18.0.0
+boto>=2.47.0
+freezegun>=0.3.10
+gevent>=1.2.1
+greenlet>=0.4.12
+lyft-datetime>=0.4.4
+lyft-experimentation>=5.6.1
+lyft-localization
+lyft-logging
+lyft-notifications
+lyft-public-api-lib>=0.46.5
+lyft-ratelimit>=0.2.2
+lyft-regions-client
+lyft-requests
+lyft-stats
+lyft-stdlib>=1009.4.2
+lyft-suntime>=0.1.2
+marshmallow>=3.0.0b8
+
+# Defines experimental extensions to the standard "typing" module that are supported by the mypy typechecker.
+# Upstream url: https://github.com/python/mypy/tree/master/extensions
+# License: MIT
+mypy_extensions
+
+pynamodb>=3.3.3
+pytest<4.0.0
+pytest-cov
+pytest-mock
+
+python-dateutil>=2.6.1
+pytz>=2018.3
+rainbow-saddle>=0.4.0
+statsd>=3.2.1
+webargs>=2.1.0
+lyft-settings
+lyft-ingest
+
+# For their testing configurations library
+lyft-paxgrowth-common==3.3.0
+
+# Lyft Protobuf definitions
+# Upstream url: https://github.com/lyft/idl
+lyft-idl==6871
