@@ -6,7 +6,7 @@
 #-e git+https://github.com/lyft/gunicorn@lyft_19.60_fixes_1#egg=gunicorn
 
 
-
+pyyaml==3.12
 rainbow-saddle==0.4.0
 requests==2.20.1          # via lyft-idl, lyft-ratelimit, lyft-requests
 rtree==0.8.3              # via lyft-regions-client
