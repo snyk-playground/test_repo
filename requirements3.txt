@@ -5,9 +5,13 @@
 #
 -e git+https://github.com/lyft/gunicorn@lyft_19.60_fixes_1#egg=gunicorn
 
-urllib3==1.24.1           # via lyft-ingest, lyft-requests, requests
+urllib3==1.24.3           # via lyft-ingest, lyft-requests, requests
 webargs==2.1.0
-werkzeug==0.15.2          # via flask
+werkzeug==0.15.3          # via flask
 
 pip==9.0.1
 setuptools==38.2.4
+
+marshmallow>=3.0.0b9 # not directly required, pinned by Snyk to avoid a vulnerability
+psutil>=5.6.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pyyaml>=4.2b1 # not directly required, pinned by Snyk to avoid a vulnerability
