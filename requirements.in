@@ -39,7 +39,7 @@ python-dateutil>=2.6.1
 pytz>=2018.3
 rainbow-saddle>=0.4.0
 statsd>=3.2.1
-webargs>=2.1.0
+webargs==5.1.3
 lyft-settings
 lyft-ingest
 
@@ -49,3 +49,6 @@ lyft-paxgrowth-common==3.3.0
 # Lyft Protobuf definitions
 # Upstream url: https://github.com/lyft/idl
 lyft-idl==6871
+
+urllib3==1.24.3           # via lyft-ingest, lyft-requests, requests
+werkzeug==0.15.3          # via flask
