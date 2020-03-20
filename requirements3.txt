@@ -67,7 +67,7 @@ parse-accept-language==0.1.2  # via lyft-localization
 phonenumbers==8.10.0      # via lyft-localization
 pluggy==0.6.0             # via pytest
 protobuf==3.10.0          # via analyticsclient, flask-protobuf, googleapis-common-protos, grpcio-tools, lyft-idl, lyft-ingest, lyft-requests
-psutil==5.4.3             # via rainbow-saddle
+psutil==5.6.6             # via rainbow-saddle
 py==1.5.3                 # via pytest
 pycountry==17.9.23        # via lyft-localization
 pynamodb==3.3.3
