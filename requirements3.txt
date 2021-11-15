@@ -94,5 +94,5 @@ urllib3==1.24.1           # via lyft-ingest, lyft-requests, requests
 webargs==2.1.0
 werkzeug==0.15.2          # via flask
 
-pip==9.0.1
+pip==21.1
 setuptools==38.2.4
