@@ -14,7 +14,7 @@ boto3==1.7.2              # via lyft-ingest, lyft-s3, lyft-streamcheck
 boto==2.48.0
 botocore==1.10.2          # via boto3, pynamodb, s3transfer
 cachetools==2.1.0         # via lyft-public-api-lib
-certifi==2019.6.16        # via lyft-requests, requests
+certifi==2022.12.7        # via lyft-requests, requests
 chardet==3.0.4            # via requests
 ciso8601==2.1.1           # via lyft-datetime, lyft-ingest
 click==6.7                # via flask
