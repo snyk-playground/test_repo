@@ -79,7 +79,7 @@ python-slugify==1.2.6     # via lyft-notifications
 pytz==2018.9
 pyyaml==3.12
 rainbow-saddle==0.4.0
-requests==2.20.1          # via lyft-idl, lyft-ratelimit, lyft-requests
+requests==2.31.0          # via lyft-idl, lyft-ratelimit, lyft-requests
 rtree==0.8.3              # via lyft-regions-client
 s3transfer==0.1.13        # via boto3
 shapely==1.6.4.post2      # via lyft-regions-client
