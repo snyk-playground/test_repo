@@ -32,7 +32,7 @@ gevent==1.2.2
 googleapis-common-protos==1.5.5  # via lyft-idl
 greenlet==0.4.13
 grpcio-tools==1.16.1      # via lyft-idl, lyft-requests
-grpcio==1.16.1            # via grpcio-tools
+grpcio==1.53.0            # via grpcio-tools
 humanize==0.5.1           # via delorean
 idna==2.6                 # via requests
 itsdangerous==0.24        # via flask
